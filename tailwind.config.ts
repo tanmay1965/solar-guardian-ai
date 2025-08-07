@@ -52,6 +52,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// PlasmaNet Custom Colors
+				solar: {
+					DEFAULT: 'hsl(var(--solar))',
+					foreground: 'hsl(var(--solar-foreground))'
+				},
+				cosmic: {
+					DEFAULT: 'hsl(var(--cosmic))',
+					foreground: 'hsl(var(--cosmic-foreground))'
+				},
+				space: {
+					DEFAULT: 'hsl(var(--space))',
+					light: 'hsl(var(--space-light))'
+				},
+				alert: {
+					critical: 'hsl(var(--alert-critical))',
+					warning: 'hsl(var(--alert-warning))',
+					safe: 'hsl(var(--alert-safe))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

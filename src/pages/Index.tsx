@@ -1,12 +1,15 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { PlasmaHero } from "@/components/PlasmaHero";
+import { PlasmaFeatures } from "@/components/PlasmaFeatures";
+import { PlasmaDashboard } from "@/components/PlasmaDashboard";
+import { PlasmaContact } from "@/components/PlasmaContact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <PlasmaHero />
+      <PlasmaFeatures />
+      <PlasmaDashboard />
+      <PlasmaContact />
     </div>
   );
 };

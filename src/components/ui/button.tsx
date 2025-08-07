@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // PlasmaNet Custom Variants
+        solar: "bg-solar text-solar-foreground hover:bg-solar/90 shadow-lg hover:shadow-[var(--glow-solar)] transition-[background-color,box-shadow] duration-300",
+        cosmic: "bg-cosmic text-cosmic-foreground hover:bg-cosmic/90 shadow-lg hover:shadow-[var(--glow-cosmic)] transition-[background-color,box-shadow] duration-300",
+        hero: "bg-gradient-to-r from-solar to-primary text-solar-foreground hover:scale-105 shadow-xl hover:shadow-[var(--glow-solar)] transition-all duration-300 font-semibold",
+        alert: "bg-alert-critical text-foreground hover:bg-alert-critical/90 animate-pulse",
       },
       size: {
         default: "h-10 px-4 py-2",
